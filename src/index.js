@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import BodyData from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <h2>The Shoppies</h2>
+    <BodyData />
   </React.StrictMode>,
   document.getElementById('root')
 );
